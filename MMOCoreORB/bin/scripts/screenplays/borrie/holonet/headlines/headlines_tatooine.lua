@@ -1,7 +1,7 @@
 headline = {
 	planet = "rp_tatooine",
-	title = "Screams heard from Jabba's Palace",
-	content = "Shortly after Jabba's death in the dune sea, the palace he resided in has closed shut, and screams could be heard from within for several weeks.",
-	galaxyDate = "23.1.4 AE",
+	title = "TRAVEL ADVISORY: Mos Eisley Spaceport Locked Down",
+	content = "By order of the local Imperial forces, the Spaceport in Mos Eisley is under a security lockdown. While no reason was stated for the lockdown, it can be assumed that recent rumours of rebel activity in the area are to blame. No estimate was made for when the lockdown would be lifted.",
+	galaxyDate = "28.11.6 AE",
 }
 BorNewsnet:addHeadline(headline)
