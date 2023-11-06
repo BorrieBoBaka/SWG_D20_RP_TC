@@ -10,6 +10,7 @@ social_language_sith_speak = {
 	pointsRequired = 0,
 	skillsRequiredCount = 0,
 	skillsRequired = {},
+	preclusionSkills = {"species_wookiee"},
 	xpType = "",
 	xpCost = 0,
 	xpCap = 0,
