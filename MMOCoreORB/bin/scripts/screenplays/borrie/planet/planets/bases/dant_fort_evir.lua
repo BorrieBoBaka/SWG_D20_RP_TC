@@ -1,7 +1,7 @@
 base = {
 	tag = "dant_fort_evir",
 	name = "Fort Evir",
-	defaultOwner = "firestar",
+	defaultOwner = "empire",
 	
 	flags = {
 	

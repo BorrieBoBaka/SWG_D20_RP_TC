@@ -1,7 +1,7 @@
 base = {
 	tag = "space_tansarii_main",
 	name = "Tansarii Point Station",
-	defaultOwner = "vigilant",
+	defaultOwner = "empire",
 	
 	flags = {
 	

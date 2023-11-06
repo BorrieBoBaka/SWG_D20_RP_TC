@@ -9,7 +9,6 @@ planet = {
 		"eisley_employment_office",
 		"eisley_governors_palace",
 		"eisley_lab",
-		"eisley_slum_hideout",
 		"eisley_adventure_guild_hall",
 	},
 	
