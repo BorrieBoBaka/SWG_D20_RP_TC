@@ -58,9 +58,9 @@ object_creature_player_hutt_male = object_creature_player_shared_hutt_male:new {
 		{templateFile = "object/weapon/melee/unarmed/unarmed_default_player.iff", x = 0, z = 0, y = 0, ox = 0, oy = 0, oz = 0, ow = 0, cellid = -1, containmentType = 4}
 		
 	},
-	defaultLanguage = 1,
+	defaultLanguage = 15,
 	startingItems = { },
-	startingSkills = { "species_hutt", "social_language_basic_comprehend", "social_language_basic_speak" }
+	startingSkills = { "species_hutt", "social_language_basic_comprehend", "social_language_hutt_comprehend", "social_language_hutt_speak" }
 }
 
 ObjectTemplates:addTemplate(object_creature_player_hutt_male, "object/creature/player/hutt_male.iff")

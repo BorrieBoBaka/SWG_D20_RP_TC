@@ -1,2 +1,0 @@
-area_prefab = {
-}

@@ -1,5 +1,5 @@
-social_language_lekku_comprehend = {
-	skillName = "social_language_lekku_comprehend",
+social_language_hutt_speak = {
+	skillName = "social_language_hutt_speak",
 	parentName = "social_language",
 	graphType = 4,
 	godOnly = 0,
@@ -10,7 +10,7 @@ social_language_lekku_comprehend = {
 	pointsRequired = 0,
 	skillsRequiredCount = 0,
 	skillsRequired = {},
-	preclusionSkills = {},
+	preclusionSkills = {"species_wookiee"},
 	xpType = "",
 	xpCost = 0,
 	xpCap = 0,
@@ -20,13 +20,14 @@ social_language_lekku_comprehend = {
 	speciesRequired = {},
 	jediStateRequired = 0,
 	skillAbility = {},
-	commands = {},
+	commands = {
+	},
 	skillModifiers = {
-		{ "language_lekku_comprehend", 100 }
+		{ "language_hutt_speak", 100 }
 	},
 	schematicsGranted = {},
 	schematicsRevoked = {},
 	searchable = 1
 }
 
-addSkill(social_language_lekku_comprehend)
+addSkill(social_language_hutt_speak)

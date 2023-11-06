@@ -1,5 +1,5 @@
-social_language_lekku_comprehend = {
-	skillName = "social_language_lekku_comprehend",
+social_language_sith_comprehend = {
+	skillName = "social_language_sith_comprehend",
 	parentName = "social_language",
 	graphType = 4,
 	godOnly = 0,
@@ -22,11 +22,11 @@ social_language_lekku_comprehend = {
 	skillAbility = {},
 	commands = {},
 	skillModifiers = {
-		{ "language_lekku_comprehend", 100 }
+		{ "language_sith_comprehend", 100 }
 	},
 	schematicsGranted = {},
 	schematicsRevoked = {},
 	searchable = 1
 }
 
-addSkill(social_language_lekku_comprehend)
+addSkill(social_language_sith_comprehend)

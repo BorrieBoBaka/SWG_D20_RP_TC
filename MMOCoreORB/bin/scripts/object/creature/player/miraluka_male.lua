@@ -41,7 +41,7 @@
 --this exception also makes it possible to release a modified version 
 
 
-object_creature_player_chiss_male = object_creature_player_shared_chiss_male:new {
+object_creature_player_miraluka_male = object_creature_player_shared_miraluka_male:new {
 	baseHAM = { 100, 100, 100, 100, 100, 100, 100, 100, 100 },
 	gameObjectType = 1033,
 	zoneComponent = "PlayerZoneComponent",
@@ -60,7 +60,7 @@ object_creature_player_chiss_male = object_creature_player_shared_chiss_male:new
 	},
 	defaultLanguage = 1,
 	startingItems = { },
-	startingSkills = { "species_chiss", "social_language_basic_comprehend", "social_language_basic_speak", "social_language_chiss_comprehend", "social_language_chiss_speak" }
+	startingSkills = { "species_miraluka", "social_language_basic_comprehend", "social_language_basic_speak", "social_language_miraluka_comprehend", "social_language_miraluka_speak" }
 }
 
-ObjectTemplates:addTemplate(object_creature_player_chiss_male, "object/creature/player/chiss_male.iff")
+ObjectTemplates:addTemplate(object_creature_player_miraluka_male, "object/creature/player/miraluka_male.iff")

@@ -41,7 +41,7 @@
 --this exception also makes it possible to release a modified version 
 
 
-object_creature_player_chiss_male = object_creature_player_shared_chiss_male:new {
+object_creature_player_jawa_male = object_creature_player_shared_jawa_male:new {
 	baseHAM = { 100, 100, 100, 100, 100, 100, 100, 100, 100 },
 	gameObjectType = 1033,
 	zoneComponent = "PlayerZoneComponent",
@@ -58,9 +58,9 @@ object_creature_player_chiss_male = object_creature_player_shared_chiss_male:new
 		{templateFile = "object/weapon/melee/unarmed/unarmed_default_player.iff", x = 0, z = 0, y = 0, ox = 0, oy = 0, oz = 0, ow = 0, cellid = -1, containmentType = 4}
 		
 	},
-	defaultLanguage = 1,
+	defaultLanguage = 18,
 	startingItems = { },
-	startingSkills = { "species_chiss", "social_language_basic_comprehend", "social_language_basic_speak", "social_language_chiss_comprehend", "social_language_chiss_speak" }
+	startingSkills = { "species_jawa", "social_language_basic_comprehend", "social_language_hutt_comprehend", "social_language_jawa_comprehend", "social_language_jawa_speak", "social_language_jawatrade_comprehend", "social_language_jawatrade_speak" }
 }
 
-ObjectTemplates:addTemplate(object_creature_player_chiss_male, "object/creature/player/chiss_male.iff")
+ObjectTemplates:addTemplate(object_creature_player_jawa_male, "object/creature/player/jawa_male.iff")
