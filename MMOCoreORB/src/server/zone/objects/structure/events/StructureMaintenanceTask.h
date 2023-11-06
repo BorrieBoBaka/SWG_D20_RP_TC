@@ -37,7 +37,7 @@ protected:
 	ManagedWeakReference<StructureObject*> structureObject;
 
 public:
-	inline const Time& getNextExecutionTime() const {
+	inline const AtomicTime& getNextExecutionTime() const {
 		return Task::getNextExecutionTime();
 	}
 
