@@ -1,0 +1,4 @@
+object_tangible_wearables_alien_selonian_chestplate_3 = object_tangible_wearables_alien_shared_selonian_chestplate_3:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_wearables_alien_selonian_chestplate_3, "object/tangible/wearables/alien/selonian_chestplate_3.iff")

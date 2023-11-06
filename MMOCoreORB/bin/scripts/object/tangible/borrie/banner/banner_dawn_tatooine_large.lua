@@ -1,0 +1,4 @@
+object_tangible_borrie_banner_banner_dawn_tatooine_large = object_tangible_borrie_banner_banner_dawn_tatooine_large:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_borrie_banner_banner_dawn_tatooine_large, "object/tangible/borrie/banner/banner_dawn_tatooine_large.iff")

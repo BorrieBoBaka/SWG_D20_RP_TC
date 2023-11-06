@@ -1,0 +1,4 @@
+object_tangible_terminal_terminal_character_builder_green = object_tangible_terminal_shared_terminal_character_builder_green:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_terminal_terminal_character_builder_green, "object/tangible/terminal/terminal_character_builder_green.iff")

@@ -1,0 +1,4 @@
+object_tangible_deed_rp_droid_deed_deed_robo_bartender = object_tangible_deed_rp_droid_deed_shared_deed_robo_bartender:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_deed_rp_droid_deed_deed_robo_bartender, "object/tangible/deed/rp_droid_deed/deed_robo_bartender.iff")

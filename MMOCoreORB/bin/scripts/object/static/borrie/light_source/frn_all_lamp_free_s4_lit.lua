@@ -1,0 +1,4 @@
+object_static_borrie_light_source_frn_all_lamp_free_s4_lit = object_static_borrie_light_source_shared_frn_all_lamp_free_s4_lit:new {
+
+}
+ObjectTemplates:addTemplate(object_static_borrie_light_source_frn_all_lamp_free_s4_lit, "object/static/borrie/light_source/frn_all_lamp_free_s4_lit.iff")

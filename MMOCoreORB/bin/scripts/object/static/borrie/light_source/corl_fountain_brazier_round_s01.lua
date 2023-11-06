@@ -1,0 +1,4 @@
+object_static_borrie_light_source_corl_fountain_brazier_round_s01 = object_static_borrie_light_source_shared_corl_fountain_brazier_round_s01:new {
+
+}
+ObjectTemplates:addTemplate(object_static_borrie_light_source_corl_fountain_brazier_round_s01, "object/static/borrie/light_source/corl_fountain_brazier_round_s01.iff")

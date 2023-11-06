@@ -1,0 +1,4 @@
+object_tangible_wearables_armor_stormtrooper_armor_stormtrooper_chest_plate_pad = object_tangible_wearables_armor_stormtrooper_shared_armor_stormtrooper_chest_plate_pad:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_wearables_armor_stormtrooper_armor_stormtrooper_chest_plate_pad, "object/tangible/wearables/armor/stormtrooper/armor_stormtrooper_chest_plate_pad.iff")

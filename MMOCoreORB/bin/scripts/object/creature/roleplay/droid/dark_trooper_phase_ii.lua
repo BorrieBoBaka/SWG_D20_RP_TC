@@ -1,0 +1,4 @@
+object_creature_roleplay_droid_dark_trooper_phase_ii = object_creature_roleplay_droid_shared_dark_trooper_phase_ii:new {
+
+}
+ObjectTemplates:addTemplate(object_creature_roleplay_droid_dark_trooper_phase_ii, "object/creature/roleplay/droid/dark_trooper_phase_ii.iff")

@@ -1,0 +1,4 @@
+object_tangible_item_roleplay_broken_saber_polearm_lance_saber_temple_guard2 = object_tangible_item_roleplay_broken_saber_polearm_shared_lance_saber_temple_guard2:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_item_roleplay_broken_saber_polearm_lance_saber_temple_guard2, "object/tangible/item/roleplay/broken_saber/polearm/lance_saber_temple_guard2.iff")

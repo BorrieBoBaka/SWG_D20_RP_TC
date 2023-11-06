@@ -1,0 +1,4 @@
+object_creature_roleplay_droid_cll8_binary_load_lifter = object_creature_roleplay_droid_shared_cll8_binary_load_lifter:new {
+
+}
+ObjectTemplates:addTemplate(object_creature_roleplay_droid_cll8_binary_load_lifter, "object/creature/roleplay/droid/cll8_binary_load_lifter.iff")

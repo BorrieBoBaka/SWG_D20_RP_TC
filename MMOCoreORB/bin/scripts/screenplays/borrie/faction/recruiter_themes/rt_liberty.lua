@@ -1,0 +1,25 @@
+recruiter_theme = {
+	greeting = "Good day. I represent the Liberty Concord, a growing party of concerned members of the Empire who are looking to improve the Empire by reviewing its status in the post-war. We are politicians who are looking to ensure the people's voices are heard in this new era. Would you care to join our cause?",
+	member_greeting = "Good day. How may I help you?",
+	inquire = "We seek to bring real reform and change to the Empire. Now that the war is over, and the galaxy is secured, we believe it is time to re-evaluate the Empire's view on people, liberty, and individual rights. We wish to restore freedom in the Galaxy through the Emipre by peace, diplomacy, and reform.",
+	join = "Through peace we can achieve victory. Through victory, we can ensure the Empire is the greatest institution the Galaxy has ever seen. We welcome you.",
+	join_double_agent = "We will not turn our back on those who may help us, even if you may have lost your way. Please, join us once more.",
+	leave = "I am sorry that we cannot provide you with what you need right now. Perhaps you may reconsider?",
+	return_menu = "Excellent. Is there anything else I can help you with today?",
+	enemy_greeting = "I'm sorry, I am terribly busy right now. I do not have time to speak with you.",
+	ally_greeting = "Greetings, friend. Is there something I can do for you today? How might the Liberty Concord assist?",
+	traitor1_greeting = "We don't appreciate what you've done. You impede real progress in the galaxy. Have you come to apologize to the masses?",
+	traitor2_greeting = "We have nothing to say to you. Goodbye.",	
+	requisition_options = "What would you like to requisition?",
+	get_req_uniform = "Here is your uniform appropriate for your current rank.",
+	get_req_loadout = "We don't believe you'll need this, but just incase...",
+	get_req_id = "I've issued you a new ID Badge.",
+	report = "You are helping make our cause a reality. Thank you. I will ensure that the party is aware of your contributions post-haste.",
+	promotion = "Here is your current available promotion information.",
+	training = "We have these avaialble training regimens. Which would you be interested in?",
+	orders = "Here are the tasks we need to complete to help further our goal.",
+	status = "Here is the current reports of our progress in the Empire.",
+	training_grant = "Good. Shall we begin?",
+}
+
+BorFactionManager:addRecruiterTheme("rt_liberty", recruiter_theme)

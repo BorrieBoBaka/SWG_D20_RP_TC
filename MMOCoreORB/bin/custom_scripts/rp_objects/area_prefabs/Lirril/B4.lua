@@ -1,0 +1,15 @@
+area_prefab = {
+	{"Mysterious Structure", "object/tangible/swsovrp/prop/ins_all_factory_machine.iff",17.0542, 0.0639648, 2.06317, 1, 0, 0, 0},
+	{"", "object/tangible/camp/camp_tent_s4.iff",0.420898, -0.0278473, 10.8047, 0.707107, 0, -0.707107, 0},
+	{"", "object/tangible/camp/camp_tent_s4.iff",0.414062, 0.647095, -8.0744, 0.707107, 0, 0.707106, 0},
+	{"", "object/tangible/camp/camp_tent_s4.iff",-10.707, 0.267128, 0.0459595, 0, 0, 1, 0},
+	{"", "object/tangible/quest/speeder_debris_wiring.iff",-1.64062, 0.0303955, -1.40161, 0.382683, 0, 0.92388, 0},
+	{"Weathered Container", "object/tangible/swsovrp/prop/thm_tato_debris_s09.iff",-7.52197, -0.449707, 7.15039, 1, 0, 0, 0},
+	{"Rusted Container", "object/tangible/swsovrp/prop/thm_tato_debris_s07.iff",-6.40869, -0.396881, 8.70721, 1, 0, 0, 0},
+	{"Eroded Container", "object/tangible/swsovrp/prop/thm_tato_debris_s05.iff",-7.65088, -0.443321, 8.50049, 1, 0, 0, 0},
+	{"Focal Array", "object/tangible/swsovrp/prop/tie_fighter_debris_d.iff",-0.144043, 0.179138, 3.77167, 0.707108, 0, 0, -0.707105},
+	{"Old Reactor Conduit", "object/tangible/swsovrp/prop2/dsdebris_conduit.iff",3.68018, 0.0349121, 0.862854, 0.707107, 0, 0.707107, 0},
+	{"", "object/tangible/furniture/all/frn_all_toolchest_lg_s01.iff",-3.17676, -0.307571, 9.26117, -1.49012e-07, 0, 1, 0},
+	{"", "object/tangible/furniture/all/frn_all_toolchest_lg_s01.iff",-2.96094, 0.210236, -6.43408, 1, 0, 0, 0},
+	{"", "object/tangible/furniture/all/frn_all_toolchest_lg_s01.iff",-9.59912, -0.278122, -4.05585, 0.707107, 0, 0.707107, 0},
+}

@@ -1,0 +1,4 @@
+object_tangible_wearables_goggles_goggles_eyepatch_l_s01 = object_tangible_wearables_goggles_goggles_eyepatch_l_s01:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_wearables_goggles_goggles_eyepatch_l_s01, "object/tangible/wearables/goggles/goggles_eyepatch_l_s01.iff")

@@ -1,0 +1,25 @@
+recruiter_theme = {
+	greeting = "Hello there! Listen, you seem like you might be interested in taking the fight to the Empire. Their days are numbered, and the Rebel Alliance can never die. Join us!",
+	member_greeting = "What's needed?",
+	inquire = "We're taking the fight back to the Empire, and we will crush them to dust for what they're doing to the galaxy. We will eliminate their tyranny completely. Join us, and take the fight to the true enemy of all life.",
+	join = "Excellent. You won't regret this. Help us make them pay.",
+	join_double_agent = "We do whatever we can to do as much damage. So be it. We'll let you return.",
+	leave = "You're turning your back on us. On everyone. Are you an Imperial spy? Do we need to make an example out of you?",
+	return_menu = "Anything else?",
+	enemy_greeting = "You don't want to be here. Get lost.",
+	ally_greeting = "What is it?",
+	traitor1_greeting = "You really think its wise to show your face here again?",
+	traitor2_greeting = "When you least expect it, justice will come for you. And those you care about.",	
+	requisition_options = "We've got some supplies. What do you need?",
+	get_req_uniform = "Blend in, but don't forget why we're fighting, and who we're fighting for.",
+	get_req_loadout = "Designed to make things go boom. Use them well.",
+	get_req_id = "I've issued you a new ID Badge.",
+	report = "Those who need to know will be informed. Keep fighting the fight. Let's make those bastards pay.",
+	promotion = "Let me see what the consensus is on your contributions.",
+	training = "Here's what we've been trying to get across to everyone.",
+	orders = "It's pretty simple. Here's what you need to do to do the most damage.",
+	status = "We're decentralized for a reason, but here's what's been said on the grapevine.",
+	training_grant = "Good. Shall we begin?",
+}
+
+BorFactionManager:addRecruiterTheme("rt_wraith", recruiter_theme)

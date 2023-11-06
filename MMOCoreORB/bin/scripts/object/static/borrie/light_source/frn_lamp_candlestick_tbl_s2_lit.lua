@@ -1,0 +1,4 @@
+object_static_borrie_light_source_frn_lamp_candlestick_tbl_s2_lit = object_static_borrie_light_source_shared_frn_lamp_candlestick_tbl_s2_lit:new {
+
+}
+ObjectTemplates:addTemplate(object_static_borrie_light_source_frn_lamp_candlestick_tbl_s2_lit, "object/static/borrie/light_source/frn_lamp_candlestick_tbl_s2_lit.iff")

@@ -1,0 +1,4 @@
+object_creature_roleplay_droid_bomarr_monk_spider_droid = object_creature_roleplay_droid_shared_bomarr_monk_spider_droid:new {
+
+}
+ObjectTemplates:addTemplate(object_creature_roleplay_droid_bomarr_monk_spider_droid, "object/creature/roleplay/droid/bomarr_monk_spider_droid.iff")

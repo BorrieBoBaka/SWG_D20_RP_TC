@@ -1,0 +1,4 @@
+object_intangible_rp_droid_dz70_fugitive_tracker_droid = object_intangible_rp_droid_shared_dz70_fugitive_tracker_droid:new {
+
+}
+ObjectTemplates:addTemplate(object_intangible_rp_droid_dz70_fugitive_tracker_droid, "object/intangible/rp_droid/dz70_fugitive_tracker_droid.iff")

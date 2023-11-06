@@ -1,0 +1,4 @@
+object_tangible_wearables_alien_chadra_fan_f_dress_s01 = object_tangible_wearables_alien_shared_chadra_fan_f_dress_s01:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_wearables_alien_chadra_fan_f_dress_s01, "object/tangible/wearables/alien/chadra_fan_f_dress_s01.iff")

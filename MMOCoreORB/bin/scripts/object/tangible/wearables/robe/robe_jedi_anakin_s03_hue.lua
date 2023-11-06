@@ -1,0 +1,4 @@
+object_tangible_wearables_robe_robe_jedi_anakin_s03_hue = object_tangible_wearables_robe_shared_robe_jedi_anakin_s03_hue:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_wearables_robe_robe_jedi_anakin_s03_hue, "object/tangible/wearables/robe/robe_jedi_anakin_s03_hue.iff")

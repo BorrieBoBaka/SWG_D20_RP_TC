@@ -1,0 +1,15 @@
+content = {
+	{"object/tangible/wearables/vest/shared_vest_hutt_gang_s01.iff", },
+	{"object/tangible/wearables/vest/shared_vest_hutt_gang_s02.iff", },
+	{"object/tangible/wearables/vest/shared_vest_hutt_gang_s03.iff", },
+	{"object/tangible/wearables/vest/shared_vest_s01.iff", },
+	{"object/tangible/wearables/vest/shared_vest_s02.iff", },
+	{"object/tangible/wearables/vest/shared_vest_s03.iff", },
+	{"object/tangible/wearables/vest/shared_vest_s04.iff", },
+	{"object/tangible/wearables/vest/shared_vest_s05.iff", },
+	{"object/tangible/wearables/vest/shared_vest_s06.iff", },
+	{"object/tangible/wearables/vest/shared_vest_s09.iff", },
+	{"object/tangible/wearables/vest/shared_vest_s10.iff", },
+	{"object/tangible/wearables/vest/shared_vest_s11.iff", },
+	{"object/tangible/wearables/vest/shared_vest_s15.iff", },
+}

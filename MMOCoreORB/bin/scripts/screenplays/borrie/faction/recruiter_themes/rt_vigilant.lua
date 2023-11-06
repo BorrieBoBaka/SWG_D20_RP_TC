@@ -1,0 +1,25 @@
+recruiter_theme = {
+	greeting = "I greet you, friend. I am a representative of the Vigilant Alliance. Would you like to join us in the fight against oppression?",
+	member_greeting = "It's a pleasure to see you again. How goes your fight?",
+	inquire = "The Empire was only the biggest threat to the freedom and safety of the people. We aim to strike at all who would hurt others, from the Empire, to the Hutts, to any criminal organization. We fight injustice wherever we can. If you join us, you can help make the galaxy a better place.",
+	join = "Our fight needs strong sentients like you to help us. We would gleefully welcome your assistance. You will not regret it.",
+	join_double_agent = "Sometimes hard choices have to be made. We understand. Welcome back to the fold, old friend.",
+	leave = "I would urge you to reconsider. We will fight whatever battle that needs to be fought. We need your help more than anything, and you would go?",
+	return_menu = "All good. What else can I help you with?",
+	enemy_greeting = "Your day will come, fiend.",
+	ally_greeting = "Welcome, my friend. You're a sight for sore eyes. Would you consider joining us and our fight?",
+	traitor1_greeting = "We don't know why you left us to join them. Do you not care about the people? Why would you do such a thing?",
+	traitor2_greeting = "You're a monster. Get out of my sight.",	
+	requisition_options = "Supplies can be hard to come by, but we can spare anything we can to help you in your fight.",
+	get_req_uniform = "Here's what we're able to provide you at your rank.",
+	get_req_loadout = "We're able to spare this for someone of your rank. Use it well.",
+	get_req_id = "I've issued you a new ID Badge.",
+	report = "Good to see you back, friend. I'll let the superiors know you're fighting the good fight.",
+	promotion = "After looking at all you've done for us, here is what we can do to recognize that.",
+	training = "We have these avaialble training regimens. Which would you be interested in?",
+	orders = "Here's what the leadership thinks is important for us to focus on right now.",
+	status = "It's good to keep a finger on the pulse of freedom. Here's what's been going on.",
+	training_grant = "I'm always happy to teach someone like you. It helps us get that much closer to victory.",
+}
+
+BorFactionManager:addRecruiterTheme("rt_vigilant", recruiter_theme)

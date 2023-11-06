@@ -1,0 +1,4 @@
+object_static_borrie_light_source_frn_all_tiki_torch_s1 = object_static_borrie_light_source_shared_frn_all_tiki_torch_s1:new {
+
+}
+ObjectTemplates:addTemplate(object_static_borrie_light_source_frn_all_tiki_torch_s1, "object/static/borrie/light_source/frn_all_tiki_torch_s1.iff")

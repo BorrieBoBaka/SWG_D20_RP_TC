@@ -1,0 +1,45 @@
+/*
+ * ClearArmorValuesSuiCallback.h
+ *
+ *  Created on: June 22, 2023
+ *      Author: Borrie BoBaka
+ */
+
+#ifndef CLEARARMORVALUESSUICALLBACK_H_
+#define CLEARARMORVALUESSUICALLBACK_H_
+#include "server/zone/objects/player/sui/SuiCallback.h"
+#include "server/zone/Zone.h"
+
+class ClearArmorValuesSuiCallback : public SuiCallback {
+	ManagedWeakReference<ZoneServer*> server;
+	ManagedWeakReference<SceneObject*> target;
+
+public:
+	ClearArmorValuesSuiCallback(ZoneServer* serv, SceneObject* target) : SuiCallback(serv) {
+		this->server = serv;
+		this->target = target;
+	}
+
+	void run(CreatureObject* creature, SuiBox* sui, uint32 eventIndex, Vector<UnicodeString>* args) {
+		bool cancelPressed = (eventIndex == 1);
+
+		if(cancelPressed || server == nullptr)
+			return;
+
+		ManagedReference<SceneObject*> targetObject = target.get();
+		if(targetObject == nullptr)
+			return;
+
+		ManagedReference<ZoneServer*> zone = this->server.get();
+		if (zone == nullptr)
+			return;
+
+		PlayerObject* ghost = creature->getPlayerObject();
+		if (ghost == nullptr)
+			return;
+
+		//Perform Task Code Here
+	}
+};
+
+#endif /* CLEARARMORVALUESSUICALLBACK_H_ */

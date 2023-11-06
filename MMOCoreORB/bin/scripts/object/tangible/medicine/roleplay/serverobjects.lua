@@ -1,0 +1,5 @@
+includeFile("tangible/medicine/roleplay/rp_stimpack_a.lua")
+includeFile("tangible/medicine/roleplay/rp_stimpack_b.lua")
+includeFile("tangible/medicine/roleplay/rp_stimpack_c.lua")
+includeFile("tangible/medicine/roleplay/rp_stimpack_d.lua")
+includeFile("tangible/medicine/roleplay/rp_stimpack_e.lua")

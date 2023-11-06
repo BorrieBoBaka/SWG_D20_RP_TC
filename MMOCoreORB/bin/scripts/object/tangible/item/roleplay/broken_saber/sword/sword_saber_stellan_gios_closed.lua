@@ -1,0 +1,4 @@
+object_tangible_item_roleplay_broken_saber_sword_sword_saber_stellan_gios_closed = object_tangible_item_roleplay_broken_saber_sword_shared_sword_saber_stellan_gios_closed:new {
+	objectMenuComponent = "RpBrokenSaberMenuComponent",
+}
+ObjectTemplates:addTemplate(object_tangible_item_roleplay_broken_saber_sword_sword_saber_stellan_gios_closed, "object/tangible/item/roleplay/broken_saber/sword/sword_saber_stellan_gios_closed.iff")

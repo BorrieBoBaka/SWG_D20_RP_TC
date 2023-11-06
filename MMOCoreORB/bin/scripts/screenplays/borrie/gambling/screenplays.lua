@@ -1,0 +1,5 @@
+includeFile("borrie/gambling/rp_gambling_pazaak.lua")
+includeFile("borrie/gambling/rp_gambling_sabaac.lua")
+includeFile("borrie/gambling/rp_gambling_roulette.lua")
+includeFile("borrie/gambling/rp_gambling_slot.lua")
+includeFile("borrie/gambling/rp_gambling_menus.lua")

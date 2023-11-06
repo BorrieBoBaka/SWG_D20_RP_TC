@@ -1,0 +1,4 @@
+object_static_borrie_light_source_itm_moon_candle_s01 = object_static_borrie_light_source_shared_itm_moon_candle_s01:new {
+
+}
+ObjectTemplates:addTemplate(object_static_borrie_light_source_itm_moon_candle_s01, "object/static/borrie/light_source/itm_moon_candle_s01.iff")

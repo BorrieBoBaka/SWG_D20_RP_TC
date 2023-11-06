@@ -1,0 +1,4 @@
+object_tangible_wearables_alien_toydarian_m_vest_s02 = object_tangible_wearables_alien_shared_toydarian_m_vest_s02:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_wearables_alien_toydarian_m_vest_s02, "object/tangible/wearables/alien/toydarian_m_vest_s02.iff")

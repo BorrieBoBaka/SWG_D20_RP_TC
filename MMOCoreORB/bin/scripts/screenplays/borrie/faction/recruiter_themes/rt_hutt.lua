@@ -1,0 +1,25 @@
+recruiter_theme = {
+	greeting = "Achuta, stranger. Ah'chu apenkee? Do you wish to work for the Hutts? That can be arranged.",
+	member_greeting = "H'chu apenkee. Welcome back. Hi chuba da naga? What do you want?",
+	inquire = "Make no mistake, the glorious Hutts are the true power in the galaxy. To serve them is to find yourself richer, and more powerful. Bargon u noa-a-uyat.",
+	join = "Grancha, you will be very happy you found yourself in the Hutt's employ. This is the start of a new dawn for you.",
+	join_double_agent = "Bona nai kachu. What do you want?",
+	leave = "If you think leaving the employ of the Hutts is so easy, you have another thing to consider. Leave, if you dare.",
+	return_menu = "Choy? Hi chuba da naga ateema?",
+	enemy_greeting = "Kee baatu baatu. Leave my presense.",
+	ally_greeting = "Chut chut! Gooddé da lodia! What can I do for you?",
+	traitor1_greeting = "Boska. Get out. What business do you have here after what you pulled?",
+	traitor2_greeting = "Moova dee boonkee ree slagwa. Don't ever show your face around here again.",	
+	requisition_options = "The glorious Hutts do wish to make sure those in their employ are properly equipped. What do you need?",
+	get_req_uniform = "This armor and equipment should help you do your job.",
+	get_req_loadout = "The glorious Hutts have provided you with this weaponry. Use it wel.",
+	get_req_id = "I've issued you a new ID Badge.",
+	report = "Grancha. Their gloriousness will be informed of your work.",
+	promotion = "Their excellencies have deemed you worthy of this rank.",
+	training = "Of course. We wish for you to be your best. What interests you?",
+	orders = "The Hutts desire this of you. See that it is done.",
+	status = "You need not concern yourself with what the Hutts will control. But if you insist...",
+	training_grant = "Good. Shall we begin?",
+}
+
+BorFactionManager:addRecruiterTheme("rt_hutt", recruiter_theme)

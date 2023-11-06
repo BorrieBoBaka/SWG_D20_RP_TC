@@ -1,0 +1,6 @@
+includeFile("borrie/rp_items/items/rp_item_campfire_kit.lua")
+includeFile("borrie/rp_items/items/rp_item_comp_spike.lua")
+includeFile("borrie/rp_items/items/rp_item_hydrospanner.lua")
+includeFile("borrie/rp_items/items/rp_item_idcard.lua")
+includeFile("borrie/rp_items/items/rp_item_prybar.lua")
+includeFile("borrie/rp_items/items/rp_item_security_spike.lua")

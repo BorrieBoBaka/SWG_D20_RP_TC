@@ -1,0 +1,4 @@
+object_intangible_rp_droid_eg6_power_droid_crafted = object_intangible_rp_droid_shared_eg6_power_droid_crafted:new {
+
+}
+ObjectTemplates:addTemplate(object_intangible_rp_droid_eg6_power_droid_crafted, "object/intangible/rp_droid/eg6_power_droid_crafted.iff")

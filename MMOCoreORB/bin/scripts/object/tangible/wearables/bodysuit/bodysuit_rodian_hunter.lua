@@ -1,0 +1,4 @@
+object_tangible_wearables_bodysuit_bodysuit_rodian_hunter = object_tangible_wearables_bodysuit_shared_bodysuit_rodian_hunter:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_wearables_bodysuit_bodysuit_rodian_hunter, "object/tangible/wearables/bodysuit/bodysuit_rodian_hunter.iff")

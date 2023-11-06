@@ -1,0 +1,25 @@
+recruiter_theme = {
+	greeting = "Hullo. I'm a representative of the Bounty Hunter's Guild. Are you here to join the guild, or post a bounty?",
+	member_greeting = "Greetings Hunter. What brings you to the guild today?",
+	inquire = "This Galaxy is too big for any one organization to have complete omnipresent authority. Not the Republic, not even the Empire. Bounty Hunters help bring justice for the right price, and we scour the galaxy to find our target. There's no safe haven from us.",
+	join = "Just sign here. You must follow the Guild guidelines, and in return we will provide you with access to special contracts and protection from other Hunters part of the guild. You will be legally allowed to pursue targets across the Galaxy.",
+	join_double_agent = "We can let you back on a probationary period for a time, but it's allowed.",
+	leave = "Retiring already, eh? Some people rather retire the hard way, but whatever. I'll terminate the contract at your request.",
+	return_menu = "You're still here? What else do you need?",
+	enemy_greeting = "The guild has no business with you.",
+	ally_greeting = "Hello. What can the Bounty Hunter's Guild do for you?",
+	traitor1_greeting = "You've got some nerve returning here. Perhaps there's hope for you yet. What do you want?",
+	traitor2_greeting = "You've been banned from the Bounty Hunter's Guild. Please leave, before we put a bounty on your head for a change.",	
+	requisition_options = "What, you don't want to pay credits for your own goods? Sure, whatever. What do you want?",
+	get_req_uniform = "This is the equipment that your currently approved for.",
+	get_req_loadout = "Here's the weaponry we issue for someone of your stature in the guild. Try not to blow yourself up.",
+	get_req_id = "I've issued you a new ID Badge.",
+	report = "Alright, I've logged your status into the database. You're free to take contracts now.",
+	promotion = "I still can't believe you're not dead yet. Whatever, here's what status you qualify for now in the guild.",
+	training = "Wise move. Going out there without any sense of training is going to get you killed.",
+	orders = "Here's the low-down on what the Guild Master wants us to know.",
+	status = "The status of the Guild? Alright, here's the latest report.",
+	training_grant = "Keep that knowledge in mind and maybe your next mark will be the one coming in dead or alive, not you.",
+}
+
+BorFactionManager:addRecruiterTheme("rt_bounty", recruiter_theme)

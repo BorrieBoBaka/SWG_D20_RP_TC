@@ -1,0 +1,4 @@
+object_tangible_wearables_alien_geonosian_legs_covering = object_tangible_wearables_alien_shared_geonosian_legs_covering:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_wearables_alien_geonosian_legs_covering, "object/tangible/wearables/alien/geonosian_legs_covering.iff")

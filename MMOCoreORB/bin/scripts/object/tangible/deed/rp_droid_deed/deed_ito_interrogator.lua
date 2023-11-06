@@ -1,0 +1,4 @@
+object_tangible_deed_rp_droid_deed_deed_ito_interrogator = object_tangible_deed_rp_droid_deed_shared_deed_ito_interrogator:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_deed_rp_droid_deed_deed_ito_interrogator, "object/tangible/deed/rp_droid_deed/deed_ito_interrogator.iff")

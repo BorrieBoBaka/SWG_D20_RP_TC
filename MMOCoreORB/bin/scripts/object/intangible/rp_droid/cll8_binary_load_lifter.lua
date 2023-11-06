@@ -1,0 +1,4 @@
+object_intangible_rp_droid_cll8_binary_load_lifter = object_intangible_rp_droid_shared_cll8_binary_load_lifter:new {
+
+}
+ObjectTemplates:addTemplate(object_intangible_rp_droid_cll8_binary_load_lifter, "object/intangible/rp_droid/cll8_binary_load_lifter.iff")

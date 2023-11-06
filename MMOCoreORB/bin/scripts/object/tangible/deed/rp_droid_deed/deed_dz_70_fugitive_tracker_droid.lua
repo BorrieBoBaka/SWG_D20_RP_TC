@@ -1,0 +1,4 @@
+object_tangible_deed_rp_droid_deed_deed_dz_70_fugitive_tracker_droid = object_tangible_deed_rp_droid_deed_shared_deed_dz_70_fugitive_tracker_droid:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_deed_rp_droid_deed_deed_dz_70_fugitive_tracker_droid, "object/tangible/deed/rp_droid_deed/deed_dz_70_fugitive_tracker_droid.iff")

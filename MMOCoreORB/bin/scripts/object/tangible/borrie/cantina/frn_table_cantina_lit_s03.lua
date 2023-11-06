@@ -1,0 +1,4 @@
+object_tangible_borrie_cantina_frn_table_cantina_lit_s03 = object_tangible_borrie_cantina_shared_frn_table_cantina_lit_s03:new {
+
+}
+ObjectTemplates:addTemplate(object_tangible_borrie_cantina_frn_table_cantina_lit_s03, "object/tangible/borrie/cantina/frn_table_cantina_lit_s03.iff")
