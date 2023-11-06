@@ -838,6 +838,21 @@ bool SkillManager::fulfillsSkillPrerequisites(const String& skillName, CreatureO
 		}
 	}
 
+	//Check for precluded skills.
+	auto precludedSkills = skill->getPrecludedSkills();
+	for (int i = 0; i < precludedSkills->size(); ++i) {
+		const String& precludedSkillName = precludedSkills->get(i);
+		Skill* precludedSkill = skillMap.get(precludedSkillName.hashCode());
+
+		if (precludedSkill == nullptr) {
+			continue;
+		}
+
+		if (creature->hasSkill(precludedSkillName)) {
+			return false;
+		}
+	}
+
 	PlayerObject* ghost = creature->getPlayerObject();
 	if (ghost == nullptr || ghost->getJediState() < skill->getJediStateRequired()) {
 		return false;
