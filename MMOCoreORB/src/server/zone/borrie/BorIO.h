@@ -8,7 +8,7 @@
 
 class BorIO : public Logger {
 public:
-
+/*
     static void LoadCharacterData(CreatureObject* commander, CreatureObject* target, String dataTemplate) {
         if(target == nullptr) {
             commander->sendSystemMessage("You need a target to load character data.");
@@ -146,7 +146,7 @@ public:
 
         commander->sendSystemMessage("Loaded template onto target.");
     }
-
+*/
 };
 
 #endif 
