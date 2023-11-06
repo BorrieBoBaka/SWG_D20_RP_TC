@@ -6,12 +6,12 @@
 #define REQUESTSETSTATMIGRATIONDATACOMMAND_H_
 
 #include "server/zone/objects/creature/CreatureObject.h"
-#include "server/zone/objects/player/sessions/MigrateStatsSession.idl"
+//#include "server/zone/objects/player/sessions/MigrateStatsSession.idl"
 #include "server/zone/managers/player/creation/PlayerCreationManager.h"
 
 class RequestSetStatMigrationDataCommand : public QueueCommand {
 public:
-
+/*
 	RequestSetStatMigrationDataCommand(const String& name, ZoneProcessServer* server)
 		: QueueCommand(name, server) {
 
@@ -91,7 +91,7 @@ public:
 
 		return SUCCESS;
 	}
-
+*/
 };
 
 #endif //REQUESTSETSTATMIGRATIONDATACOMMAND_H_
