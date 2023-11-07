@@ -92,8 +92,6 @@ includeFile("creature/player/talz_male.lua") --Talz male
 --added races by Borrie
 includeFile("creature/player/iktotchi_male.lua") --Iktotchi male
 includeFile("creature/player/kel_dor_male.lua") --Kel Dor male
-includeFile("creature/player/zeltron_male.lua") --Zeltron male
-includeFile("creature/player/zeltron_female.lua") --Zeltron female
 includeFile("creature/player/arkanian_male.lua") --Arkanian male
 includeFile("creature/player/arkanian_female.lua") --Arkanian female
 includeFile("creature/player/arcona_male.lua") --Arcona male
@@ -106,3 +104,10 @@ includeFile("creature/player/kubaz_male.lua") --Kubaz male
 includeFile("creature/player/togorian_male.lua") --Togorian male
 includeFile("creature/player/chadra_fan_male.lua") --Chadra Fan male
 includeFile("creature/player/chadra_fan_female.lua") --Chadra Fan male
+
+includeFile("creature/player/miraluka_female.lua")
+includeFile("creature/player/miraluka_male.lua")
+includeFile("creature/player/mirialan_female.lua")
+includeFile("creature/player/mirialan_male.lua")
+includeFile("creature/player/zeltron_female.lua")
+includeFile("creature/player/zeltron_male.lua")

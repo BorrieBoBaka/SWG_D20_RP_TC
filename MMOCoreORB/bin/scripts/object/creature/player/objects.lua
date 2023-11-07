@@ -1889,4 +1889,20 @@ object_creature_player_shared_togruta_female = SharedCreatureObjectTemplate:new 
 	clientTemplateFileName = "object/creature/player/shared_togruta_female.iff"}
 ObjectTemplates:addClientTemplate(object_creature_player_shared_togruta_female, "object/creature/player/shared_togruta_female.iff")
 
+object_creature_player_shared_mirialan_female = SharedCreatureObjectTemplate:new { clientTemplateFileName = "object/creature/player/shared_mirialan_female.iff" }
+ObjectTemplates:addClientTemplate(object_creature_player_shared_mirialan_female, "object/creature/player/shared_mirialan_female.iff")
 
+object_creature_player_shared_mirialan_male = SharedCreatureObjectTemplate:new { clientTemplateFileName = "object/creature/player/shared_mirialan_male.iff" }
+ObjectTemplates:addClientTemplate(object_creature_player_shared_mirialan_male, "object/creature/player/shared_mirialan_male.iff")
+
+object_creature_player_shared_miraluka_female = SharedCreatureObjectTemplate:new { clientTemplateFileName = "object/creature/player/shared_miraluka_female.iff" }
+ObjectTemplates:addClientTemplate(object_creature_player_shared_miraluka_female, "object/creature/player/shared_miraluka_female.iff")
+
+object_creature_player_shared_miraluka_male = SharedCreatureObjectTemplate:new { clientTemplateFileName = "object/creature/player/shared_miraluka_male.iff" }
+ObjectTemplates:addClientTemplate(object_creature_player_shared_miraluka_male, "object/creature/player/shared_miraluka_male.iff")
+
+object_creature_player_shared_zeltron_female = SharedCreatureObjectTemplate:new { clientTemplateFileName = "object/creature/player/shared_zeltron_female.iff" }
+ObjectTemplates:addClientTemplate(object_creature_player_shared_zeltron_female, "object/creature/player/shared_zeltron_female.iff")
+
+object_creature_player_shared_zeltron_male = SharedCreatureObjectTemplate:new { clientTemplateFileName = "object/creature/player/shared_zeltron_male.iff" }
+ObjectTemplates:addClientTemplate(object_creature_player_shared_zeltron_male, "object/creature/player/shared_zeltron_male.iff")
