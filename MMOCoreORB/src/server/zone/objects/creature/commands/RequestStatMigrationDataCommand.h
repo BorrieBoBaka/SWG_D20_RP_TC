@@ -5,7 +5,7 @@
 #ifndef REQUESTSTATMIGRATIONDATACOMMAND_H_
 #define REQUESTSTATMIGRATIONDATACOMMAND_H_
 
-#include "server/zone/objects/player/sessions/MigrateStatsSession.idl"
+#include "server/zone/objects/player/sessions/MigrateStatsSession.h"
 #include "server/zone/packets/player/StatMigrationTargetsMessage.h"
 
 class RequestStatMigrationDataCommand : public QueueCommand {
