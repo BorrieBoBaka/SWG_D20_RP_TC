@@ -472,7 +472,7 @@ void CommandConfigManager::registerCommands3() {
 	commandFactory.registerCommand<RequestResourceWeightsCommand>(String("requestResourceWeights").toLowerCase());
 	commandFactory.registerCommand<RequestResourceWeightsBatchCommand>(String("requestResourceWeightsBatch").toLowerCase());
 //	commandFactory.registerCommand<RequestSetStatMigrationDataCommand>(String("requestSetStatMigrationData").toLowerCase());
-	commandFactory.registerCommand<RequestStatMigrationDataCommand>(String("requestStatMigrationData").toLowerCase());
+//	commandFactory.registerCommand<RequestStatMigrationDataCommand>(String("requestStatMigrationData").toLowerCase());
 	commandFactory.registerCommand<RequestStatMigrationStartCommand>(String("requestStatMigrationStart").toLowerCase());
 	commandFactory.registerCommand<RequestStatMigrationStopCommand>(String("requestStatMigrationStop").toLowerCase());
 	commandFactory.registerCommand<RequestStimpackCommand>(String("requestStimpack").toLowerCase());
