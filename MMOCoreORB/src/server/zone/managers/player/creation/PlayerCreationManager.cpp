@@ -562,7 +562,7 @@ bool PlayerCreationManager::createCharacter(ClientCreateCharacterCallback* callb
 	try {
 		StringBuffer query;
 		query
-				<< "INSERT INTO `characters_dirty` (`character_oid`, `account_id`, `galaxy_id`, `firstname`, `surname`, `race`, `gender`, `template`)"
+				<< "INSERT INTO `characters` (`character_oid`, `account_id`, `galaxy_id`, `firstname`, `surname`, `race`, `gender`, `template`)"
 				<< " VALUES (" << playerCreature->getObjectID() << ","
 				<< client->getAccountID() << "," << zoneServer.get()->getGalaxyID()
 				<< "," << "'" << firstName.escapeString() << "','"
@@ -585,7 +585,7 @@ bool PlayerCreationManager::createCharacter(ClientCreateCharacterCallback* callb
 	//Join auction chat room
 	ghost->addChatRoom(chatManager->getAuctionRoom()->getRoomID());
 
-	ChatRoom* oocRoom = chatManager->getChatRoomByFullPath("SWG.Dark Rebellion.Chat.ooc");
+	ChatRoom* oocRoom = chatManager->getChatRoomByFullPath("SWG.An Empire Inherited.Chat.ooc");
 	if(oocRoom != nullptr) {
 		ghost->addChatRoom(oocRoom->getRoomID());
 	}	
