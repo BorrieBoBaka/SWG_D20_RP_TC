@@ -171,7 +171,7 @@
 #include "server/zone/objects/creature/commands/RequestManfSchematicSlotsCommand.h"
 #include "server/zone/objects/creature/commands/RequestResourceWeightsCommand.h"
 #include "server/zone/objects/creature/commands/RequestResourceWeightsBatchCommand.h"
-#include "server/zone/objects/creature/commands/RequestSetStatMigrationDataCommand.h"
+//#include "server/zone/objects/creature/commands/RequestSetStatMigrationDataCommand.h"
 #include "server/zone/objects/creature/commands/RequestStatMigrationDataCommand.h"
 #include "server/zone/objects/creature/commands/RequestStatMigrationStartCommand.h"
 #include "server/zone/objects/creature/commands/RequestStatMigrationStopCommand.h"
@@ -471,7 +471,7 @@ void CommandConfigManager::registerCommands3() {
 	commandFactory.registerCommand<RequestManfSchematicSlotsCommand>(String("requestManfSchematicSlots").toLowerCase());
 	commandFactory.registerCommand<RequestResourceWeightsCommand>(String("requestResourceWeights").toLowerCase());
 	commandFactory.registerCommand<RequestResourceWeightsBatchCommand>(String("requestResourceWeightsBatch").toLowerCase());
-	commandFactory.registerCommand<RequestSetStatMigrationDataCommand>(String("requestSetStatMigrationData").toLowerCase());
+//	commandFactory.registerCommand<RequestSetStatMigrationDataCommand>(String("requestSetStatMigrationData").toLowerCase());
 	commandFactory.registerCommand<RequestStatMigrationDataCommand>(String("requestStatMigrationData").toLowerCase());
 	commandFactory.registerCommand<RequestStatMigrationStartCommand>(String("requestStatMigrationStart").toLowerCase());
 	commandFactory.registerCommand<RequestStatMigrationStopCommand>(String("requestStatMigrationStop").toLowerCase());
