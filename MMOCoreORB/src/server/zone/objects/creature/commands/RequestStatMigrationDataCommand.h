@@ -1,7 +1,7 @@
 /*
 				Copyright <SWGEmu>
 		See file COPYING for copying conditions.*/
-
+/*
 #ifndef REQUESTSTATMIGRATIONDATACOMMAND_H_
 #define REQUESTSTATMIGRATIONDATACOMMAND_H_
 
@@ -51,3 +51,4 @@ public:
 };
 
 #endif //REQUESTSTATMIGRATIONDATACOMMAND_H_
+*/

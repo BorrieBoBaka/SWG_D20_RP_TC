@@ -55,13 +55,13 @@ for i,v in pairs(special_crystal_list) do
 end
 
 crystal_locations = {
-	["rp_carida"]	 = {0,1,4,5,32,33,34},
-	["rp_tatooine"]	 = {2,3,6,7,10,11,36,37},
-	["rp_dantooine"] = {0,1,2,3,4,5,6,7,8,9},
-	["rp_sulon"]	 = {0,1,2,3,4,5,6,36,37,34},
-	["rp_dathomir"]	 = {0,1,10,32,33,34,35,39},
-	["rp_yavin4"]	 = {2,3,4,5,32,33,35},
-	["rp_xovros6"]	 = {4,5,34,35,38,39},
+	--["rp_carida"]	 = {0,1,4,5,32,33,34},
+	--["rp_tatooine"]	 = {2,3,6,7,10,11,36,37},
+	--["rp_dantooine"] = {0,1,2,3,4,5,6,7,8,9},
+	--["rp_sulon"]	 = {0,1,2,3,4,5,6,36,37,34},
+	--["rp_dathomir"]	 = {0,1,10,32,33,34,35,39},
+	--["rp_yavin4"]	 = {2,3,4,5,32,33,35},
+	--["rp_xovros6"]	 = {4,5,34,35,38,39},
 }
 
 BorForce:addCrystalLocation(crystal_locations)
