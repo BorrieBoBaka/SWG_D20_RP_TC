@@ -1,0 +1,17 @@
+content = {
+	{"object/tangible/wearables/dress/shared_dress_s11.iff", },
+	{"object/tangible/wearables/dress/shared_dress_s12.iff", },
+	{"object/tangible/wearables/dress/shared_dress_s13.iff", },
+	{"object/tangible/wearables/dress/shared_dress_s18.iff", },
+	{"object/tangible/wearables/dress/shared_dress_s19.iff", },
+	{"object/tangible/wearables/dress/shared_dress_s23.iff", },
+	{"object/tangible/wearables/robe/shared_robe_s01.iff", },
+	{"object/tangible/wearables/robe/shared_robe_s04.iff", },
+	{"object/tangible/wearables/robe/shared_robe_s05.iff", },
+	{"object/tangible/wearables/robe/shared_robe_s05_h1.iff", },
+	{"object/tangible/wearables/robe/shared_robe_s12.iff", },
+	{"object/tangible/wearables/robe/shared_robe_s27.iff", },
+	{"object/tangible/wearables/robe/shared_robe_tusken_raider_s01.iff", },
+	{"object/tangible/wearables/robe/shared_robe_tusken_raider_s02.iff", },
+	{"object/tangible/tcg/series4/shared_wearable_chandrilan_dress.iff", },
+}

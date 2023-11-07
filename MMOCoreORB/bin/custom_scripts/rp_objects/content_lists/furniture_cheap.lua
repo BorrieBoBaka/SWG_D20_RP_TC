@@ -1,0 +1,15 @@
+content = {
+	{"object/tangible/furniture/cheap/shared_armoire_s01.iff", },
+	{"object/tangible/furniture/cheap/shared_bookcase_s01.iff", },
+	{"object/tangible/furniture/cheap/shared_cabinet_s01.iff", },
+	{"object/tangible/furniture/cheap/shared_chair_s01.iff", },
+	{"object/tangible/furniture/cheap/shared_chest_s01.iff", },
+	{"object/tangible/furniture/cheap/shared_coffee_table_s01.iff", },
+	{"object/tangible/furniture/cheap/shared_couch_s01.iff", },
+	{"object/tangible/furniture/cheap/shared_end_table_s01.iff", },
+	{"object/tangible/furniture/cheap/shared_love_seat_s01.iff", },
+	{"object/tangible/furniture/all/shared_frn_all_chair_wooden_s1.iff", },
+	{"object/tangible/furniture/all/shared_frn_all_chair_wooden_s2.iff", },
+	{"object/tangible/furniture/all/shared_frn_all_chair_kitchen_s1.iff", },
+	{"object/tangible/furniture/all/shared_frn_all_chair_kitchen_s2.iff", },
+}
