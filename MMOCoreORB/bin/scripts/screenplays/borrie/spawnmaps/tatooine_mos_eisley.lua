@@ -578,8 +578,8 @@ function RpTatooineMosEisleyScreenPlay:spawnMobiles()
 	setRandomCreatureName(pNpc, "rodian")
 	pNpc = spawnRoleplayMobile("rp_tatooine", "rp_base_npc", 1, 996.454, 0, 156.619, 158, 0, "ronto", "default", "default", "default") --Equip, Skill, Customization
 	SceneObject(pNpc):setCustomObjectName("a Ronto")
-	pNpc = spawnRoleplayMobile("rp_tatooine", "rp_base_npc", 1, 927.062, 0, 176.94, 219, 0, "dewback", "default", "default", "default") --Equip, Skill, Customization
-	SceneObject(pNpc):setCustomObjectName("a Dewback")
+	pNpc = spawnRoleplayMobile("rp_tatooine", "rp_base_npc", 1, 927.062, 0, 176.94, 219, 0, "dewback", "default", "atst", "default") --Equip, Skill, Customization
+	SceneObject(pNpc):setCustomObjectName("Dewey the Dewback")
 	pNpc = spawnRoleplayMobile("rp_tatooine", "rp_base_npc", 1, 827.661, 0, 185.862, 278, 0, "jawa", "default", "default", "default") --Equip, Skill, Customization
 	setRandomCreatureName(pNpc, "rodian")
 	pNpc = spawnRoleplayMobile("rp_tatooine", "rp_base_npc", 1, 826.763, 0, 186.541, 124, 0, "jawa", "default", "default", "default") --Equip, Skill, Customization
@@ -718,8 +718,6 @@ function RpTatooineMosEisleyScreenPlay:spawnMobiles()
 	SceneObject(pNpc):setCustomObjectName("a Ronto")
 	pNpc = spawnRoleplayMobile("rp_tatooine", "rp_base_npc", 1, 649.766, 0, 152.591, 44, 0, "3po_protocol_droid_red", "default", "default", "default") --Equip, Skill, Customization
 	setRandomCreatureName(pNpc, "3po")
-	pNpc = spawnRoleplayMobile("rp_tatooine", "rp_base_npc", 1, 682.719, 0, 181.581, 257, 0, "jawa", "default", "default", "default") --Equip, Skill, Customization
-	setRandomCreatureName(pNpc, "rodian")
 	pNpc = spawnRoleplayMobile("rp_tatooine", "rp_base_npc", 1, 682.719, 0, 181.581, 257, 0, "jawa", "default", "default", "default") --Equip, Skill, Customization
 	setRandomCreatureName(pNpc, "rodian")
 	pNpc = spawnRoleplayMobile("rp_tatooine", "rp_base_npc", 1, 682.329, 0, 182.406, 196, 0, "jawa", "default", "default", "default") --Equip, Skill, Customization
