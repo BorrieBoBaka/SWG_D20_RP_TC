@@ -13,7 +13,7 @@
 #include "server/zone/objects/player/events/ImageDesignTimeoutEvent.h"
 #include "server/zone/objects/player/sessions/ImageDesignPositionObserver.h"
 #include "server/zone/objects/player/sessions/ImageDesignSession.h"
-//#include "server/zone/objects/player/sessions/MigrateStatsSession.h"
+#include "server/zone/objects/player/sessions/MigrateStatsSession.h"
 #include "server/zone/packets/object/ImageDesignMessage.h"
 #include "server/zone/objects/player/PlayerObject.h"
 #include "server/zone/objects/transaction/TransactionLog.h"
