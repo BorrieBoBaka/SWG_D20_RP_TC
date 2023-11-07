@@ -833,8 +833,18 @@ bool SkillManager::fulfillsSkillPrerequisites(const String& skillName, CreatureO
 			continue;
 		}
 
-		if (!creature->hasSkill(requiredSkillName)) {
-			return false;
+		if (requiredSkillCount == 0) {
+			if (!creature->hasSkill(requiredSkillName)) {
+				return false;
+			}
+		}
+		else {
+			if (creature->hasSkill(requiredSkillName)) {
+				skillCount++;
+				if (skillCount == requiredSkillCount) {
+					continue;
+				}
+			}
 		}
 	}
 
