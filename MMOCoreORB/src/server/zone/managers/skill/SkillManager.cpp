@@ -825,6 +825,9 @@ bool SkillManager::fulfillsSkillPrerequisites(const String& skillName, CreatureO
 
 	//Check for required skills.
 	auto requiredSkills = skill->getSkillsRequired();
+	int requiredSkillCount = skill->getRequiredSkillCount();
+	int skillCount = 0;
+	
 	for (int i = 0; i < requiredSkills->size(); ++i) {
 		const String& requiredSkillName = requiredSkills->get(i);
 		Skill* requiredSkill = skillMap.get(requiredSkillName.hashCode());

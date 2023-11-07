@@ -302,6 +302,10 @@ public:
 		return xpCap;
 	}
 
+	inline int getRequiredSkillCount() const {
+		return skillsRequiredCount;
+	}
+
 	/**
 	 * Returns the XP cost for the skill.
 	 * @return XP cost for the skill.
