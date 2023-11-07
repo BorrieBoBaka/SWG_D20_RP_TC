@@ -4,7 +4,7 @@ planet = {
 	startingFaction = "empire",
 	startingFactionControl = 70,
 	bases = {
-		--"eisley_base_main",
+		"eisley_base_main",
 		"eisley_bounty_office",
 		"eisley_employment_office",
 		"eisley_governors_palace",
