@@ -64,7 +64,7 @@ travel_destinations = {
 	
 	--},
 	
-	Tatooine
+	--Tatooine
 	{ 
 		name = "Tatooine",
 		zone = "rp_tatooine",
