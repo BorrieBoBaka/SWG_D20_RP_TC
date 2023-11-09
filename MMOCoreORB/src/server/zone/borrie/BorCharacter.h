@@ -74,6 +74,16 @@ public:
 	static void PromptForceQuestion(CreatureObject* creature) {
 		int hasDecided = creature->getStoredInt("fs_chosen");
 
+		if(creature.hasSkill("species_miraluka" || "always_force_sensitives")) {
+			//Miraluka are always Force Sensitive.
+			hasDecided = 1;
+
+			ManagedReference<PlayerObject*> targetGhost = creature->getPlayerObject();
+			if(targetGhost == nullptr)
+				return;
+			targetGhost->setJediState(2);
+		}
+
 		if(hasDecided != 1) {
 			//Prompt them
 			ManagedReference<SuiListBox*> box = new SuiListBox(creature, SuiWindowType::JUKEBOX_SELECTION);
