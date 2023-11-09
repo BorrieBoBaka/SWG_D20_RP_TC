@@ -254,7 +254,7 @@ bool SkillManager::awardSkill(const String& skillName, CreatureObject* creature,
 		if (awardRequiredSkills)
 			awardSkill(requiredSkillName, creature, notifyClient, awardRequiredSkills, noXpRequired);
 
-		if (!creature->hasSkill(requiredSkillName))
+		if (!creature->hasSkill(requiredSkillName) && skill->getRequiredSkillCount() == 0)
 			return false;
 	}
 
