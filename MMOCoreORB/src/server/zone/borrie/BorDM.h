@@ -87,7 +87,7 @@ public:
 	}
 
 	static void GrantLanguageSkills(CreatureObject* creature, CreatureObject* target) {
-		creature->sendSystemMessage(target->getFirstName() + " has been taught all language related skills.");
+		//Vanilla Languages
 		SkillManager::instance()->awardSkill("social_language_basic_speak", target, true, true, true);
 		SkillManager::instance()->awardSkill("social_language_basic_comprehend", target, true, true, true);
 		SkillManager::instance()->awardSkill("social_language_rodian_speak", target, true, true, true);
@@ -110,6 +110,25 @@ public:
 		SkillManager::instance()->awardSkill("social_language_ithorian_comprehend", target, true, true, true);
 		SkillManager::instance()->awardSkill("social_language_sullustan_speak", target, true, true, true);
 		SkillManager::instance()->awardSkill("social_language_sullustan_comprehend", target, true, true, true);
+		//New Languages
+		SkillManager::instance()->awardSkill("social_language_miraluka_speak", target, true, true, true);
+		SkillManager::instance()->awardSkill("social_language_miraluka_comprehend", target, true, true, true);
+		SkillManager::instance()->awardSkill("social_language_mirialan_speak", target, true, true, true);
+		SkillManager::instance()->awardSkill("social_language_mirialan_comprehend", target, true, true, true);
+		SkillManager::instance()->awardSkill("social_language_hutt_speak", target, true, true, true);
+		SkillManager::instance()->awardSkill("social_language_hutt_comprehend", target, true, true, true);
+		SkillManager::instance()->awardSkill("social_language_sith_speak", target, true, true, true);
+		SkillManager::instance()->awardSkill("social_language_sith_comprehend", target, true, true, true);
+		SkillManager::instance()->awardSkill("social_language_mandoa_speak", target, true, true, true);
+		SkillManager::instance()->awardSkill("social_language_mandoa_comprehend", target, true, true, true);
+		SkillManager::instance()->awardSkill("social_language_chiss_speak", target, true, true, true);
+		SkillManager::instance()->awardSkill("social_language_chiss_comprehend", target, true, true, true);
+		SkillManager::instance()->awardSkill("social_language_jawa_speak", target, true, true, true);
+		SkillManager::instance()->awardSkill("social_language_jawa_comprehend", target, true, true, true);
+		SkillManager::instance()->awardSkill("social_language_jawatrade_speak", target, true, true, true);
+		SkillManager::instance()->awardSkill("social_language_jawatrade_comprehend", target, true, true, true);
+
+		creature->sendSystemMessage(target->getFirstName() + " has been taught all language related skills.");
 	}
 
 	

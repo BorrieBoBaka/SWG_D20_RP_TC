@@ -18,6 +18,7 @@
 #include "server/zone/objects/tangible/pharmaceutical/StimPack.h"
 
 #include "templates/params/creature/CreatureAttribute.h"
+#include "templates/params/creature/CreaturePosture.h"
 
 
 class BorCharacter : public Logger {
@@ -74,7 +75,7 @@ public:
 	static void PromptForceQuestion(CreatureObject* creature) {
 		int hasDecided = creature->getStoredInt("fs_chosen");
 
-		if(creature.hasSkill("species_miraluka" || "always_force_sensitives")) {
+		if(creature.hasSkill("species_miraluka" || "always_force_sensitive")) {
 			//Miraluka are always Force Sensitive.
 			hasDecided = 1;
 
@@ -984,7 +985,27 @@ public:
 			BorrieRPG::BroadcastMessage(creature, creature->getFirstName() + " has begun to move on their mount. Their enhanced range is " + String::valueOf(maxDistance) + "m. ");
 		} else {
 			maxDistance = maneuverability + athletics + 6;
-			BorrieRPG::BroadcastMessage(creature, creature->getFirstName() + " has begun to move. Their range is " + String::valueOf(maxDistance) + "m. ");
+
+			byte posture = creature->getPosture();
+
+			switch(posture) {
+				case CREATUREPOSTURE::CROUCHED:{
+					//Two-thirds movement speed when crouched.
+					maxDistance = maxDistance*0.666;
+					BorrieRPG::BroadcastMessage(creature, creature->getFirstName() + " has begun to move while crouched. Their range is " + String::valueOf(maxDistance) + "m. ");
+					break;
+				}
+				case CREATUREPOSTURE::PRONE:{
+					//One-Fifth movement speed when prone.
+					maxDistance = maxDistance*0.2;
+					BorrieRPG::BroadcastMessage(creature, creature->getFirstName() + " has begun to move while prone. Their range is " + String::valueOf(maxDistance) + "m. ");
+					break;
+				}
+				default:{
+					BorrieRPG::BroadcastMessage(creature, creature->getFirstName() + " has begun to move. Their range is " + String::valueOf(maxDistance) + "m. ");
+					break;
+				}
+			}
 		}	
 									
 		creature->sendSystemMessage("Move to your desired destination, using the Last Position waypoint to keep track of your distance. Use the move (rpmove) ability to confirm your movement.");
@@ -1004,6 +1025,9 @@ public:
 			auto worldPosition = waypoint->getWorldPosition();
 			int distance = GetDistance(creature, worldPosition.getX(), worldPosition.getZ(), worldPosition.getY());
 			BorrieRPG::BroadcastMessage(creature, creature->getFirstName() + " moved " + String::valueOf(distance) + " meters from their last position.");
+		// Remove the waypoint after move.
+			ghost->removeWaypoint(waypoint->getObjectID(), true, false);
+			newwaypoint = waypoint.get();
 		}
 		
 	}
