@@ -28,8 +28,27 @@ function travelSystemScreenplay:handleSuiSelectPlanet(pPlayer, pSui, eventIndex,
 	end
 	
 	local options = {}
+	local factionBlocked = 0
+	
 	for i = 1, #travel_destinations[planet].destinations, 1 do
-		table.insert(options, {travel_destinations[planet].destinations[i][1], 0})
+	
+		--Get landing zone faction control.
+		local destFaction = travel_destinations[planet].destinations[i][7]
+		
+		--Check the landing zone's faction control. If the faction isn't defined, assume it's public.
+		if (destFaction == nil or destFaction == "public") then
+			table.insert(options, {travel_destinations[planet].destinations[i][1], 0})
+		else
+			--Get the player's current faction and compare it with the LZ.
+			if (SceneObject(pPlayer):getStoredString("faction_current") == destFaction)
+				--Add the destination.
+				table.insert(options, {travel_destinations[planet].destinations[i][1], 0})
+			else
+				--Make note that a destination was filtered out.
+				factionBlocked = 1
+			end
+			
+		end
 	end
 	
 	local listBox = LuaSuiListBox(pSui)
@@ -37,7 +56,9 @@ function travelSystemScreenplay:handleSuiSelectPlanet(pPlayer, pSui, eventIndex,
 	
 	if(#options > 0) then
 		suiManager:sendListBox(pNpc, pPlayer, "Instant Travel System", "Select a location you'd like to land at.", 2, "@cancel", "", "@ok", "travelSystemScreenplay", "travelToPoint", 32, options)
-	else 
+	else if (factionBlocked = 0)
+		CreatureObject(pPlayer):sendSystemMessage("You are not allowed to travel to any destinations on this planet.")
+	else
 		CreatureObject(pPlayer):sendSystemMessage("Unfortunately, no travel destinations could be found for this planet. Please inform administration.")
 	end
 
