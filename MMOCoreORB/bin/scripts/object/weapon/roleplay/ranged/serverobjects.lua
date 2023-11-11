@@ -1,0 +1,5 @@
+includeFile("weapon/roleplay/ranged/carbine.lua")
+includeFile("weapon/roleplay/ranged/pistol.lua")
+includeFile("weapon/roleplay/ranged/rifle.lua")
+includeFile("weapon/roleplay/ranged/shotgun.lua")
+includeFile("weapon/roleplay/ranged/sniper.lua")
