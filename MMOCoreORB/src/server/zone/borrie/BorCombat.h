@@ -82,6 +82,13 @@ public:
             }
         }
 
+        //Always Miss on a nat 1.
+        if(toHitRoll = 1) {
+            BorrieRPG::BroadcastMessage(attacker, attacker->getFirstName() + " "+attackVerb+ " and missed!  \\#DBDBDB" + GenerateOutputSpam(toHitRoll, skillCheck, toHitDC) + "\\#FFFFFF");
+            BorEffect::PerformReactiveAnimation(defender, attacker, "miss", GetSlotHitlocation(bodyPartTarget), true);
+            return;
+        }
+
         if(powerAttack) {
             int powerAttackCost = attacker->getStoredInt("power_attack_count");
             attacker->setStoredInt("power_attack_count", powerAttackCost + 1);
@@ -129,16 +136,6 @@ public:
 
         if(weapon->isJediWeapon()) {
             bonusDamage += attacker->getSkillMod("rp_lightsaber");
-        } else if(weapon->isUnarmedWeapon()) {
-            bonusDamage += attacker->getSkillMod("rp_unarmed") / 2;
-            if(attacker->hasSkill("rp_training_tka_rank_04") && attacker->hasSkill("rp_force_prog_novice")) {
-			    int tk_mod = attacker->getSkillMod("rp_telekinesis");
-			    int inw_mod = attacker->getSkillMod("rp_inward");
-			    if(tk_mod > inw_mod)
-			    	bonusDamage += tk_mod / 2;
-			    else 
-			    	bonusDamage += inw_mod / 2;
-		    }
         }
 
         int totalDamage = GetDamageRoll(damageDieType, damageDieCount, bonusDamage);
@@ -247,16 +244,6 @@ public:
 
         if(weapon->isJediWeapon()) {
             bonusDamage += attacker->getSkillMod("rp_lightsaber");
-        } else if(weapon->isUnarmedWeapon()) {
-            bonusDamage += attacker->getSkillMod("rp_unarmed");
-            if(attacker->hasSkill("rp_training_tka_rank_04") && attacker->hasSkill("rp_force_prog_novice")) {
-			    int tk_mod = attacker->getSkillMod("rp_telekinesis");
-			    int inw_mod = attacker->getSkillMod("rp_inward");
-			    if(tk_mod > inw_mod)
-			    	bonusDamage += tk_mod / 2;
-			    else 
-			    	bonusDamage += inw_mod / 2;
-		    }
         }
 
         int damage1 = GetDamageRoll(damageDieType, damageDieCount, bonusDamage) / 2;
@@ -787,7 +774,6 @@ public:
         else return CombatManager::HIT_BODY;
     }
 
-
     static String GetWeaponDamageString(WeaponObject* weapon) {
         if(weapon->getBonusDamage() > 0)
             return String::valueOf(weapon->getMinDamage()) + "d" + String::valueOf(weapon->getMaxDamage()) + " + " + String::valueOf(weapon->getBonusDamage());
@@ -881,18 +867,26 @@ public:
 
         int distanceModifier = 0;
         bool tooClose = false;
-
+        
         if(distance < minRange) {
-            //distanceModifier = attackerWeapon->getPointBlankAccuracy();
-            distanceModifier = 5;
+            //We're outside of the minimum range!
+            distanceModifier = getPointBlankAccuracy(); //PointBlankAccuracy is the too close DC mod
             tooClose = true;
+
         } else if(distance <= prefRange) {
-            distanceModifier = attackerWeapon->getPointBlankAccuracy();
-        } else if(distance > prefRange && distance < maxRange) {
-            distanceModifier = attackerWeapon->getIdealAccuracy();
-        } else if(distance > maxRange) {
-            distanceModifier = 99;
+            //We're within preferred range!
+            distanceModifier = 0; //There is no configurable mod for this, might be worth fixing down the road.
+
+        } else if(distance <= maxRange) {
+            //We're too far!
+            distanceModifier = getIdealAccuracy(); //idealAccuracy is the too far DC mod
+
+        } else {
+            //We're out of range!
+            distanceModifier = 89;
+            tooClose = true;
         }
+        
 
         int postureModifier = 0;
 
